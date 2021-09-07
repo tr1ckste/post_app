@@ -1,0 +1,57 @@
+@font-face {
+  font-family: "ComicSans";
+  src: url('../fonts/comic.ttf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'ComicSans';
+}
+
+header {
+  display: flex;
+  min-height: 10vh;
+  background: #161b22;
+  color: white;
+  align-items: center;
+  padding-left: 20px;
+}
+
+body {
+  background: url(../img/business.jpg);
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  min-height: 90vh;
+  align-items: center;
+  background: rgba(13,17,23, 0.6);
+}
+
+.reg_form {
+  width: 400px;
+  height: 250px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  background: #161b22;
+  color: white;
+  opacity: 1;
+}
+
+.reg_form h2 {
+  text-align: center;
+}
+
+.reg_form * {
+  margin-bottom: 10px;
+}
+
+.reg_form .submit {
+  width: 100px;
+  margin-left: 150px;
+}
+
+
